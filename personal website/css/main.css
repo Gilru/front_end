@@ -17,6 +17,10 @@ body {
 a {
     text-decoration: none;
 }
+
+h3 {
+    margin: 0 0 1em 0;
+}
 /*********************************
 IMGAGE RESONSIVE FIT IN PARENT
 *********************************/
@@ -78,6 +82,52 @@ PAGE: PORTOFOLIO
     padding: 5%;
     font-size: 0.75em;
     color: #bdc3c7;
+}
+
+
+/*********************************
+PAGE: ABOUT
+*********************************/
+
+.profile-photo {
+    display: block;
+    max-width: 150px;
+    margin: 0 auto 30px;
+    border-radius: 100%;
+
+}
+
+/*********************************
+PAGE: ABOUT
+*********************************/
+
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../img/phone.png') ;
+}
+
+.contact-info li.mail a {
+    background-image: url('../img/mail.png') ;
+}
+.contact-info li.twitter a {
+    background-image: url('../img/twitter.png') ;
 }
 /*********************************
 HEADER

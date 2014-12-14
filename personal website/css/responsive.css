@@ -1,0 +1,28 @@
+@media screen and (min-width: 480px) {
+    /*********************************
+     TWO COLUMNS LAYOUT
+    *********************************/
+
+    #primary {
+        width: 50%;
+        float: left;
+    }
+
+    #secondary {
+        width: 40%;
+        float: right;
+    }
+
+    #gallery li {
+        width: 28%;
+    }
+/*====================here we solve the problem================= */
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+}
+
+
+@media screen and (min-width: 660px) {
+
+}
